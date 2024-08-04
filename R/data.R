@@ -7,11 +7,11 @@
 #' Counts were then recorded for four successive two-week periods. 
 #' The subject's age is the only covariate.
 #'
-#' @format his data frame has 295 rows and the following 5 columns:
+#' @format his data frame has 236 rows and the following 5 columns:
 #' \describe{
 #'   \item{y}{the count for the 2-week period.}
 #'   \item{trt}{treatment, "placebo" or "progabide"}
-#'   \item{post}{post treatment. 0 for no, 1 for yes}
+#'   \item{period}{post treatment. 0 for no, 1 for yes}
 #'   \item{subject}{subject id}
 #'   \item{tj}{time}
 #' }

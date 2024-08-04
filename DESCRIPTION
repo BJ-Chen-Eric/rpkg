@@ -1,17 +1,23 @@
 Package: rpkg
-Title: What the Package Does (One Line, Title Case)
+Title: An Example Package 0804
 Version: 0.0.0.9000
 Authors@R: 
-    person("Eric", "Chen", , "cysh010479@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Lucy", "van Pelt", , "lucy@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "LUCY-ORCID-ID"))
+Description: A simple example package to demonstrate package creation_0804.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Depends: R (>= 2.10)
+Imports: 
+    dplyr,
+    lme4,
+    sjPlot
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
+VignetteBuilder: knitr
 Config/testthat/edition: 3
-Depends: 
-    R (>= 2.10)
 LazyData: true

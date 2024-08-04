@@ -4,12 +4,12 @@
 \name{rpkg-package}
 \alias{rpkg}
 \alias{rpkg-package}
-\title{rpkg: What the Package Does (One Line, Title Case)}
+\title{rpkg: An Example Package 0804}
 \description{
-What the package does (one paragraph).
+A simple example package to demonstrate package creation_0804.
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Lucy van Pelt \email{lucy@example.com} (\href{https://orcid.org/LUCY-ORCID-ID}{ORCID})
 
 }
 \keyword{internal}

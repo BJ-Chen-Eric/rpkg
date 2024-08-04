@@ -4,6 +4,9 @@
 # rpkg
 
 <!-- badges: start -->
+
+[![Codecov test
+coverage](https://codecov.io/gh/BJ-Chen-Eric/rpkg/graph/badge.svg)](https://app.codecov.io/gh/BJ-Chen-Eric/rpkg)
 <!-- badges: end -->
 
 The goal of rpkg is to …
